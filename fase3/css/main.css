@@ -98,7 +98,7 @@ nav ul li a {
   color: #ffffff;
   padding: 20px 20px;
   text-decoration: none;
-  width: 208.4px;
+  width: 229.1px;
   text-align: center;
 } 
 
@@ -119,6 +119,44 @@ nav ul li:hover > ul {
 }
 nav ul li:hover {
   background-color: rgba(51, 61, 63, 0.7);
+}
+/*AUTOR*/
+
+.section-autor{
+  width: 70%;
+  float: right;
+  padding: 0px;
+  height: 500px;
+  line-height: 2;
+  font-family: sans-serif;
+  background-color: antiquewhite
+  
+}
+.img-autor{
+  margin: auto;
+  display: block;
+  width: 8rem;
+  border-radius: 0px 200px 200px 200px;
+}
+.texto{
+  
+  margin: auto;
+  display: block;
+  width: 40%;
+  margin-top: 1.2rem;
+}
+span{
+  font-weight: bold;
+ 
+}
+.text{
+
+  text-align: justify;
+  
+}
+.ondas{
+ width: 100%;
+ margin-top: -27px
 }
 
 footer{
