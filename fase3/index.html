@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preload" href="css/stilos.css" as="style">
-    <link rel="stylesheet" href="../fase3/css/estilos.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
-    
-    
-    <title>INICIO</title>
+    <title>Document</title>
 </head>
+
 <body>
-    <header class="header" > 
-        <h1>HTML: Frameworks CSS, Posicionamiento Web</h1>
+    <!-- Sección del encabezado -->
+    <header>
+        <img class="img-h" src="img/logo_unad.png" alt="Imagen de logo">
+        <h1>Diseño de Sitios Web: aquí coloco mi temática</h1>
+        <img class="img-h" src="img/images.jpg" alt="Imagen de logo">
     </header>
-<hr>
+
+    <!-- Barra de menú horizontal -->
     <nav class="navegacion contenedor" >
         <ul>
             <li> <a href="index.html">Inicio</a></li>
@@ -40,81 +43,34 @@
             <li><a href="autor.html">Acerca de</a></li>
         </ul>
     </nav>
-<hr>    
-    <section>
-        <h2>Proposito</h2>
+
+    <!-- Seccion central -->
+
+    <div class="main">
+        <aside>
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        
+        <section>
+            <article>
+                <h2>Proposito</h2>
         <p>Conocer diferentes framworks CSS y sus venjas al ser utilizados en la creación de paginas web, ya que brindan temas o diseños ya 
             preestablecidos y unas clases ya definidas para su uso. Esto es de gran ayuda ya que ahorra tiempo en la creación de diseños web y ayuda a la estandarización de las diseños creados creando plantillas para diseños futuros, ademas de esto viene diseñadas bajo las buenas practicas de la W3C. </p>
-        <p>Conocer de que se trata el posicionamiento web, sus técnicas más usadas.</p>
-<br>
-            <article>
-                <h3>Frameworks CSS</h3>
-                <img src="img/framework.jpg" alt="framework">
-                <p>Un framework de CSS es una bibliloteca de estilos genéricos que puede ser usada para implementar diseños web.
-                Aportan una serie de utilidades que pueden ser aprovechadas frecuentemente en los distintos diseños web.</p>
-                <p>La idea de framework CSS ya viene de lejos y viene con nosotros más de una decada, pero en la actualidad pocos son los frameworks que pueden competir en el mercado, ya que este tipo de herramientas ha evolucionado mucho, junto con el propio lenguaje, y se han hecho muy completos y sofisticados. Algunos de los Frameworks más usados son:</p>
-               <ul>
-                   <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-                   <li><a href="https://materializecss.com/">Materialize CSS</a></li>
-                   <li><a href="https://tailwindcss.com/">Tailwindcss</a> </li>
-                   <li><a href="https://get.foundation/sites/docs-v5/css.html">Foundation CSS</a> </li>
-                   <li><a href="https://bulma.io/">Bulma CSS</a> </li>
-               </ul>
-               <p> <strong>La implementación de Framework proporciona una serie de ventajas:</strong>  <br>
-                   Proporcina una forma fácil y rápida de implementar diseños web. <br>
-                   Asegura que el diseñor va a funcionar en una amplia gama de navegadores. <br>
-                   Asegura que su código cumple ciertas normas estándar. <br>
-                   Nos aseguran cierto grado de fiabilidad en la eficacia de las utilidades que nos aportan. El framework se supone que está bien probado para asegurarnos que no hay errores.</p> 
-                
-                <p><strong>Desventajas del uso de Framework CSS:</strong> <br>
-                    La importación de código del framework que no es necesario en nuestro diseño web concreto. Esto provoca un incremento innecesario del consumo del ancho de banda y del tiempo de descarga. <br>
-                    Hay un menor control por parte del maquetador de lo que realmente está sucediendo en la visualización de la página web. Esto suele ser un problema cuando se tiene que corregir algún efecto indeseado. <br>
-                    Al diseñar con código prehecho, podemos estar limitándonos en cuanto las posibilidades de elección del diseño web.</p>   
-                
+        <p>Conocer de que se trata el posicionamiento web, sus técnicas más usadas.</p><br> 
             </article>
-<br>
-            <article>
-                <h3>Posicionamiento Web</h3>
-                <img src="img/posicionamiento.jpg" alt="posicionamiento web SEO">
-                <p>Posicionamiento web, posicionamiento en buscadores o posicionamiento SEO se refiere a las técnicas para que una página web aparezca en las primeras posiciones de los resultados en buscadores (como Google) para una serie de palabras o frases.</p><br>
-
-                <h4>Posicionamiento web natural u orgánico</h4>
-                <p>Posicionamiento natural se refiere a las técnicas de posicionamiento web que tienen que ver con los contenidos de la misma (títulos, metas, palabras clave, ...), con los enlaces dirigidos a la página web y con la calidad del código, en contraposición a las campañas de posicionamiento web de pago por click (Google Adwords, Yahoo! Search Marketing, ...), en las que pagas directamente a los buscadores para aparecer como un enlace patrocinado.</p>
-
-                <h4>Algunas técnicas de posicinamineto web natural</h4>
-                <p>
-                    -Seguir los estándares: HTML semántico, CSS y Javascript no obstructivo <br>
-                    -Identificar las palabras clave de la página web y utilizarlas convenientemente en los contenidos <br>
-                    -Generar títulos únicos para cada sección de la página web acorde a su contenido y palabras clave <br>
-                    -Crear metas personalizadas para cada sección de la página web <br>
-                    -Utilizar las palabras clave en los encabezados <br>
-                    -Usar texto significativo en los enlaces tanto internos como desde otras páginas web <br>
-                    -Minimizar el uso de tecnologías que los buscadores no entienden: Flash, AJAX, frames, ... <br>
-                    -Dar de alta manualmente la página web en buscadores.
-                </p>
-
-                <p>(SEO, por sus siglas en inglés) no se trata solo de estas partes, sino de la suma de todas ellas. El objetivo del SEO es atraer visitas relevantes mediante la mejora en la posición de un sitio en los resultados de búsqueda de los principales buscadores (también conocidos como motores de búsqueda). <br> Los puntos que acabamos de mencionar se han escogido por un motivo preciso, la Optimización para buscadores trabaja en tres niveles: el contenido de un sitio, sus aspectos técnicos y los enlaces externos que apuntan al mismo.</p>                     
-            </article>
-    </section>
-    <hr>
-    <br>
-        <h3>Mockup</h3>
-        <img src="img/mockup.png" alt="Muckup o ilustración del diseño deseable"width="80%" height="800px">
-
-<hr>
-
-<!--<section>
-    <h3><strong>Bibliografía</strong></h3>
-    <p>Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/106494?page=186</p>
-    <p>desarrolloweb. (15 de 05 de 2021). desarrolloweb.com. Obtenido de desarrolloweb.com: https://desarrolloweb.com/colecciones/frameworks-css</p>
-    <p>A Pedrós Piñón, M. (2018). Manual SEO: posicionamiento web en Google para un marketing más eficaz. Madrid, Spain: Bubok Publishing S.L. Recuperado de https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/51300?page=12.</p>
-    <p>arume. (1 de 04 de 2019). arumeinformatica.es. Obtenido de arumeinformatica.es: https://www.arumeinformatica.es/blog/posicionamiento-web-seo/</p>
-</section>--> 
-<hr>
-    <footer>
-        <p><strong>Skype</strong> Benjamin.molina8</p>
-        <p><strong>Corre</strong> bmolinap@unadvirtual.edu.co</p>
-        <p><strong>Fecha</strong> 9 de Mayo del 2021</p>
+                        
+            
+        </section>
+        
+    </div>
+    <!-- Pie de página -->
+   
+    <footer >
+       
+        <p class="footer__texto"><strong>Skype:</strong> Benjamin.molina8</p>
+        <p class="footer__texto"><strong>Correo:</strong> bmolinap@unadvirtual.edu.co</p>
+        <p class="footer__texto"><strong>Fecha:</strong> 9 de Junio del 2021</p>
+       
     </footer>
 </body>
 </html>

@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html{
+ 
+}
+
+
+img{
+  max-width: 100%;
+}
+.contenedor{
+  width: 85%;
+  max-width: 120rem;
+  margin: 0 auto;
+  
+}
+.main{
+  -webkit-box-shadow: 7px 10px 35px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 10px 35px -1px rgba(0,0,0,0.75);
+box-shadow: 7px 10px 35px -1px rgba(0,0,0,0.75);
+  width: 85%;
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 2rem;
+ 
+}
+
+header{
+width: 100%;
+height: 70px;
+margin: 0 auto;
+padding: 20px 0;
+display: flex;
+justify-content: space-between;
+max-width: 100%;
+background-color: #333333;
+color: #ffffff;
+
+}
+.img-h{
+  padding-right: 3rem;
+  padding-left: 3rem;
+  
+}
+aside{
+  width: 30%;
+  float: left;
+  margin-bottom: 2rem;
+  
+}
+article{
+  width: 70%;
+  float: right;
+  margin-top: 7rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  line-height: 2;
+  font-family: sans-serif;
+ 
+}
+
+/** Navegacion **/
+.navegacion{
+  display: flex;
+  justify-content: space-between;    
+  background-color: #b4a7b0;
+  
+}
+nav {
+  width: 120rem;
+  margin:0 auto;
+  position: relative;
+  
+}
+nav ul {
+  list-style: none;
+}
+nav > ul > li {
+  float: left;
+}
+nav ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+nav ul li a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 20px 20px;
+  text-decoration: none;
+  width: 208.4px;
+  text-align: center;
+} 
+
+nav ul li a:hover {
+  background-color: rgba(51, 61, 63, 0.7);
+}
+
+/* SEgundo nivel **/
+
+nav ul ul {
+  position: absolute;
+  top:100%;
+  background-color: rgba(51, 61, 63, 0.7);
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul li:hover {
+  background-color: rgba(51, 61, 63, 0.7);
+}
+
+footer{
+  width: 100%;
+  color: #ffffff;
+  background-color: #333333;
+  float: left;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+}
