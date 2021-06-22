@@ -21,7 +21,7 @@ box-shadow: 7px 10px 35px -1px rgba(0,0,0,0.75);
   width: 85%;
   max-width: 120rem;
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   margin-top: 2rem;
  
 }
@@ -46,8 +46,6 @@ color: #ffffff;
 aside{
   width: 30%;
   float: left;
-  margin-bottom: 2rem;
-  
 }
 
 article{
@@ -161,6 +159,7 @@ span{
 
 footer{
   width: 100%;
+  margin-top: 2rem;
   color: #ffffff;
   background-color: #333333;
   float: left;
