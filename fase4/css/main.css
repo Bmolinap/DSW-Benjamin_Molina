@@ -71,9 +71,14 @@ article{
 .navegacion{
   display: flex;
   justify-content: space-between;    
-  background-color: #b4a7b0;
-  
-}
+  background-color: rgba(4, 193, 231, 0.7);
+  }
+  @media (min-width: 768px) {
+    .navegacion{
+      background-color: #b4a7b0;
+    }
+  }
+
 nav {
   width: 120rem;
   margin:0 auto;
@@ -104,6 +109,7 @@ nav ul li a:hover {
   background-color: rgba(51, 61, 63, 0.7);
 }
 
+
 /* SEgundo nivel **/
 
 nav ul ul {
@@ -118,6 +124,8 @@ nav ul li:hover > ul {
 nav ul li:hover {
   background-color: rgba(51, 61, 63, 0.7);
 }
+
+
 /*AUTOR*/
 .main-autor{
   -webkit-box-shadow: 7px 10px 35px -1px rgba(0,0,0,0.75);
